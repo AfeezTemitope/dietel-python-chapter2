@@ -1,10 +1,5 @@
-try:
-    age = int(input("Enter your age: "))
-except ValueError:
-    print("Invalid input. Please enter a valid age.")
-    exit()
 
-
+age = int(input("Enter your age: "))
 maximum_heart_rate = 220 - age
 
 # Calculate the target heart rate range (50-85% of maximum heart rate)
