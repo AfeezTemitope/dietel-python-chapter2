@@ -5,7 +5,7 @@ while True:
     print("******************")
     print("ABIDO-SHAKERS NOKIA PHONE MENU")
 
-    print(" 1. PHONEBOOK\n 2. MESSAGES\n 3. CHAT\n 4. CALL REGISTER\n 5. TONES\n 6. SETTINGS\n 7. CALL DIVERTS\n 8. GAMES\n 9.CALCULATOR\n 10. REMINDERS\n 11.CLOCK\n 12.PROFILES\n 13.SIM SERVICES\n 14. EXIT  ")
+    print(" 1. PHONEBOOK\t2. MESSAGES\t3. CHAT\t4. CALL REGISTER\n5. TONES\t6. SETTINGS\t7. CALL DIVERTS\t8. GAMES\t9.CALCULATOR\n10. REMINDERS\t11.CLOCK\t12.PROFILES\t13.SIM SERVICES\t14. EXIT  ")
     option = int(input("Enter an option: "))
 
     if option == 14:
@@ -125,7 +125,56 @@ while True:
         else:
             print("Wetin u dey find wey no lost")
 
-
-
-
+    elif option == 5:
+        print("1. Ringing tone\n 2. Ringing volume\n 3. Incoming call alert\n 4. Composer\n 5. Message alert tone\n 6. Keypad tones\n 7. Warning and game tones\n 8. Vibrating alert\n 9. Screen saver")
+    elif option == 6:
+        print("1. Call settings\n 2. Phone settings\n 3. Security settings\n 4. Restore factory")
+        print()
+        print("Enter your settings:")
+        settings = int(input())
+        if settings == 1:
+            print("1. Call settings...")
+            print(" 1. Automatic redial\n 2. Speed dialling\n 3. Call waiting options\n 4. Own number sending\n 5. Phone line in use\n 6. Automatic answer")
+        elif settings == 2:
+            print("2. Phone settings...")
+            print("1. Language\n 2. Cell info display\n 3. Welcome note\n 4. Network selection\n 5. Lights\n 6. Confirm SIM service actions")
+        elif settings == 3:
+            print("3. Security settings...")
+            print("1. PIN code request\n 2. Call barring service\n 3. Fixed dialling\n 4. Closed user group\n 5. Phone security\n 6. Change access codes")
+        elif settings == 4:
+            print("Restoring factory settings..........")
+	else:
+            print("Invalid choice")
+    elif option == 7:
+	print("Call diverted........")
+            print("**********************")
+    elif option == 8:
+        print("Games loading........")
+            print("**********************")
+    elif option == 9:
+        print("Loading Calculator........")
+        print("**********************")
+    elif option == 10:
+        print("Setting up reminders........")
+        print("**********************")
+    elif option == 11:
+        print("Clock settings........")
+        print("**********************")
+        print()
+            print("Enter your clock settings:")
+            clock_settings = int(input())
+        if clock_settings == 1:
+            print("Clock setup")
+            print("1. Alarm clock\n 2. Clock settings\n 3. Date setting\n 4. Stopwatch\n 5. Countdown timer\n 6. Auto update of date and time")
+    elif choice == 12:
+        print("Creating profiles........")
+        print("**********************")
+    elif choice == 13:
+        print("Loading SIM services........")
+        print("**********************")
+    elif choice == 14:
+        print("Exiting... thank you for using the abidoShaker phone menu")
+        return
+else:
+        print("E don do you self rest!!!")
 
