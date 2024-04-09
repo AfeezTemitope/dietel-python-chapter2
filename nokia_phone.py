@@ -124,6 +124,12 @@ while True:
             print("Prepaid credit...")
         else:
             print("Wetin u dey find wey no lost")
+    elif option == 5
+            print("1. Ringing tone\n 2. Ringing volume\n 3. Incoming call alert\n 4. Composer\n 5. Message alert tone\n 6. Keypad tones\n 7. Warning and game tones\n 8. Vibrating alert\n 9. Screen saver\n"); 
+            print()
+    elif option == 6
+
+ }
 
     elif option == 5:
         print("1. Ringing tone\n 2. Ringing volume\n 3. Incoming call alert\n 4. Composer\n 5. Message alert tone\n 6. Keypad tones\n 7. Warning and game tones\n 8. Vibrating alert\n 9. Screen saver")
