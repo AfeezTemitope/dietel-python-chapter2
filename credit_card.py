@@ -1,7 +1,6 @@
-
 try:
         card_number = int(input("Enter the credit card number: "))
-        card_number_str = str(card_number)  # Convert to string for length check
+        card_number_str = str(card_number)
         if len(card_number_str) < 13 or len(card_number_str) > 16:
             print("Invalid credit card number!")
         else:
