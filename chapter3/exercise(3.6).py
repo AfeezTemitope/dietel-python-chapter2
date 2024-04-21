@@ -1,0 +1,5 @@
+print("What is your problem?")
+user_problem = input()
+print("Have you had this problem before (yes or no)?")
+user_response = input().lower()
+print("Well, you have it again.") if user_response == 'yes' else print("Well, you have it now.")
